@@ -45,7 +45,7 @@ public class YourPrimeTest {
 		
 		MyMedia myMedia01 = new MyMedia(listMovie01, listBook01, listSong01);
 		Subscriber user1 = new Subscriber("A12345", "John Doe", myMedia01);
-		System.out.println(user1.toString());
+		System.out.println(user1);
 	
 		// user A67890
 		List<Movie> listMovie02 = new ArrayList<>();
@@ -62,18 +62,17 @@ public class YourPrimeTest {
 		
 		MyMedia myMedia02 = new MyMedia(listMovie02, listBook02, listSong02);
 		Subscriber user2 = new Subscriber("A67890", "Jane Doe", myMedia02);
-		System.out.println(user2.toString());
+		System.out.println(user2);
 		
 		// Testing the sorting function
 		System.out.println("Testing for sorting method: ");
-		
-		String[] orderType = new String[] {"Price", "Rating", "Duration", "Pages"};
-		for (int i = 0; i < orderType.length; i++) {
-			System.out.println("\nSorting by: " + orderType[i]);
-			List<?> listtmp = user2.sort(orderType[i]);
-			for (Object o: listtmp) {
-				System.out.println(o.toString());
-			}
-		}
+		String[] orderType = new String[] {"Price", "Rating", "Duration", "Pages", "Artist"};
+        for (String s : orderType) {
+            System.out.println("\nSorting by: " + s);
+            List<?> listtmp = user2.sort(s);
+            for (Object o : listtmp) {
+                System.out.println(o.toString());
+            }
+        }
 	}
 }

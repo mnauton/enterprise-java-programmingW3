@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="936e0dfc-e609-4188-b7bd-86543fc8282d" name="Changes" comment="" />
+    <list default="true" id="936e0dfc-e609-4188-b7bd-86543fc8282d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/RyanAndMonica/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RyanAndMonica/RyanAndMonica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreadTest/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreadTest/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreadTest/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionsDemo/CollectionDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionsDemo/Film.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionsDemo/ListDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionsDemo/MapDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionsDemo/SetDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YourPrime/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YourPrime/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YourPrime/Autobiography.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YourPrime/Autobiography.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YourPrime/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YourPrime/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YourPrime/Comedy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YourPrime/Comedy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YourPrime/Drama.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YourPrime/Drama.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YourPrime/Fantasy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YourPrime/Fantasy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YourPrime/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YourPrime/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YourPrime/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YourPrime/Media.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YourPrime/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YourPrime/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YourPrime/MyMedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YourPrime/MyMedia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YourPrime/Pop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YourPrime/Pop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YourPrime/Rap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YourPrime/Rap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YourPrime/Rock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YourPrime/Rock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YourPrime/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YourPrime/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YourPrime/Subscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YourPrime/Subscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YourPrime/YourPrimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YourPrime/YourPrimeTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +42,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2bJUQy3z0kzBBLnz8rS61o9sEVa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,14 +56,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.RyanAndMonica.executor": "Run",
+    "Application.ThreadTest.executor": "Run",
+    "Application.YourPrimeTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/margaux/java-workspace/EnterpriseJavaProgrammingW3/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,6 +85,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705932666136</updated>
+      <workItem from="1705999128893" duration="14808000" />
+      <workItem from="1706173772420" duration="39000" />
+      <workItem from="1706174088593" duration="5021000" />
+      <workItem from="1706267828119" duration="1582000" />
+      <workItem from="1706524209164" duration="1355000" />
+      <workItem from="1706528749011" duration="153000" />
+      <workItem from="1706528918440" duration="222000" />
+      <workItem from="1706529274894" duration="4044000" />
+      <workItem from="1706605587975" duration="7024000" />
     </task>
     <servers />
   </component>

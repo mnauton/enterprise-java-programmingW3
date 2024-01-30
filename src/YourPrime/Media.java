@@ -14,13 +14,16 @@ public class Media {
 	
 	public double getPrice() {
 		// TODO return the price for each media sub-type
+		return genre.setPrice(rating);
 	}
 	
 	public String getTitle() {
 		// TODO return title
+		return this.title;
 	}
 	
 	public int getRating() {
 		// TODO return rating
+		return this.rating;
 	}
 }

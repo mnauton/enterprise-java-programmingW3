@@ -9,16 +9,29 @@ public class Movie extends Media {
 	
 	public Movie(String title, String cast, double duration, int year, int rating, Genre genre) {
 		// TODO: assign all arguments to the class
+		this.title = title;
+		this.cast = cast;
+		this.duration = duration;
+		this.year = year;
+		this.rating = rating;
+		this.genre = genre;
 	}
-	
+
+	//  double getPrice() - call the Genre.setPrice(int rating), use rating as argument
+	public double getPrice() {
+		return genre.setPrice(rating);
+	}
+
 	public double getDuration() {
 		// TODO: return duration
+		return this.duration;
 	}
-	
+
 	@Override
+	// TODO: return the following string
+	// title-of-the-movie with name-of-cast price at price
 	public String toString() {
-		// TODO: return the following string
-		// title-of-the-movie with name-of-cast price at price
+		return this.title + " with " + this.cast + " price at = " + price + " €";
 	}
 
 }
